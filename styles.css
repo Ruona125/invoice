@@ -1,0 +1,326 @@
+/*
+#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+  }
+  */
+html,head,h2,div,section,p,footer,table,tr,th,td,address,body{
+  padding:0;
+  margin:0;
+}
+@font-face {
+	font-family: 'Cantarell';
+	src: url('_fonts/Cantarell-Regular-webfont.eot');
+	src: url('_fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('_fonts/Cantarell-Regular-webfont.woff') format('woff'), url('_fonts/Cantarell-Regular-webfont.ttf') format('truetype'), url('_fonts/Cantarell-Regular-webfont.svg#webfont9UOzsjXz') format('svg');
+	font-weight: normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Cantarell';
+	src: url('_fonts/Cantarell-Oblique-webfont.eot');
+	src: url('_fonts/Cantarell-Oblique-webfont.eot?#iefix') format('embedded-opentype'), url('_fonts/Cantarell-Oblique-webfont.woff') format('woff'), url('_fonts/Cantarell-Oblique-webfont.ttf') format('truetype'), url('_fonts/Cantarell-Oblique-webfont.svg#webfontRl4nowrT') format('svg');
+	font-weight: normal;
+	font-style:italic;
+}
+
+@font-face {
+	font-family: 'Cantarell';
+	src: url('_fonts/Cantarell-Bold-webfont.eot');
+	src: url('_fonts/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('_fonts/Cantarell-Bold-webfont.woff') format('woff'), url('_fonts/Cantarell-Bold-webfont.ttf') format('truetype'), url('_fonts/Cantarell-Bold-webfont.svg#webfontKr2CkGZp') format('svg');
+	font-weight: bold;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Cantarell';
+	src: url('_fonts/Cantarell-BoldOblique-webfont.eot');
+	src: url('_fonts/Cantarell-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'), url('_fonts/Cantarell-BoldOblique-webfont.woff') format('woff'), url('_fonts/Cantarell-BoldOblique-webfont.ttf') format('truetype'), url('_fonts/Cantarell-BoldOblique-webfont.svg#webfontQ1aSR0ux') format('svg');
+	font-weight: bold;
+	font-style:italic;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+
+footer{
+  background-color: #4287f5;
+  color:white;
+  display: grid;
+  
+}
+.invoice{
+  font-size: 45px;
+  position: relative;
+  top:40px;
+  padding-left: 20px;
+  
+}
+
+
+.details section{
+  float:right;
+  margin-bottom: 3em;
+  padding-right: 56px;
+}
+.details address{
+  float:right;
+  padding-right: 56px;
+}
+.kzy address p{
+  padding-left:20px;
+  
+}
+.main{
+  padding-top: 60px;
+  
+}
+.iwz{
+  position: absolute;
+}
+.iqu{
+  padding-left: 260px;
+  position: absolute;
+}
+.cash{
+  float:right;
+  padding-right: 56px;
+}
+.dollars{
+  color:#4287f5;
+  font-size:30px;
+}
+
+
+
+
+
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 0 45px;
+    padding-top: 125px;
+    padding-left: 32px;
+    width:100%;
+    padding-right: 65px;
+    
+  }
+  
+ 
+  
+  th,
+  td {
+    width: 350px;
+    text-align: center;
+    
+    padding: 15px 80px 15px 10px;
+  }
+  
+  .td{
+      padding-right: 14em;
+      
+      
+  }
+  th{
+    
+    border-top:2px solid #4287f5;
+    color:#4287f5;
+  
+    
+  }
+ table td{
+    border-bottom: 1px solid black;
+  }
+ .everything{
+   display:flex;
+   justify-content: flex-end;
+ }
+ small,.small{
+   color:#ada9a8
+ }
+
+
+
+
+ /*--------------------------------------responsive design-------------------------------------*/
+ @media screen and (max-width:800px){
+    footer{
+      width:104%;
+    }
+    table{
+      width:100%;
+    }
+    .cash{
+      position: relative;
+      left:2em;
+    }
+  }
+    @media screen and (max-width:784px){
+      footer{
+        width:104%;
+      }
+    }
+    @media screen and (max-width:754px){
+      footer{
+        width:110%;
+      }
+    }
+      @media screen and (max-width:728px){
+        footer{
+          width:113%;
+        }
+        .cash{
+          position: relative;
+          left:6em;
+        }
+    }
+    @media screen and (max-width:704px){
+      footer{
+        width:117%;
+      }
+      table{
+        width:115%
+      }
+    }
+    @media screen and (max-width:680px){
+      footer{
+        width:122%
+      }
+    }
+    @media screen and (max-width:664px){
+      footer{
+        width:124%
+      }
+      table{
+        width:120%
+      }
+      .cash{
+        position: relative;
+        left:10em;
+      }
+    }
+    @media screen and (max-width:640px){
+      footer{
+        width:128%;
+      }
+      .cash{
+        position:relative;
+        left:12em;
+      }
+    }
+    @media screen and (max-width:603px){
+      footer{
+        width:136%;
+      }
+      table{
+        width:132%
+      }
+      .cash{
+        position:relative;
+        left:13em;
+      }
+    }
+    @media screen and (max-width:576px){
+      footer{
+        width:142%;
+      }
+      table{
+        width:138%;
+      }
+      .cash{
+        position:relative;
+        left:15em;
+      }
+    }
+    @media screen and (max-width:547px){
+      footer{
+        width:150%;
+      }
+      table{
+        width:152%;
+      }
+      .cash{
+        position: relative;
+        left:17em
+      }
+    }
+    @media screen and (max-width:504px){
+      footer{
+        width:165%
+      }
+      table{
+        width:160%
+      }
+    }
+    @media screen and (max-width:470px){
+      footer{
+        width:175%;
+      }
+      .cash{
+        position:relative;
+        left:22em;
+      }
+    }
+    @media screen and (max-width:449px){
+      footer{
+        width:185%
+      }
+      .cash{
+        position: relative;
+        left:23em;
+      }
+    }
+    @media screen and (max-width:425px){
+      footer{
+        width:195%;
+      }
+      .cash{
+        position: relative;
+        left:25em;
+      }
+      table{
+        width:170%
+      }
+    }
+    @media screen and (max-width:407px){
+      footer{
+        width:205%;
+      }
+      .cash{
+        position: relative;
+        left:27em
+      }
+    }
+    @media screen and (max-width:380px){
+      footer{
+        width:219%
+      }
+    }
+    @media screen and (max-width:354px){
+      footer{
+        width:234%;
+      }
+      .cash{
+        position:relative;
+        left:29em
+      }
+    }
+    @media screen and (max-width:329px){
+      footer{
+        width:252%;
+      }
+      .cash{
+        position:relative;
+        left:31em;
+
+      }
+    }
+
+
+
+
+
+  
+  
+ 
